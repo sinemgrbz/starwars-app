@@ -8,10 +8,11 @@ function App() {
 
   return (
     <>
+    {/* Define the Routes for the app */}
     <Routes>
       <Route path='/' element= {<Home/>}/>
       <Route path='/starships' element= {<Starships/>}/>
-      {/* <Route path='/starshipdetail' element= {<StarshipDetail/>}/> */}
+      <Route path='/starshipdetail/:id' element= {<StarshipDetail/>}/>
     </Routes>
      
     </>

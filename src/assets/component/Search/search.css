@@ -1,0 +1,140 @@
+.back-btn {
+    padding: 8px 12px;
+    margin: 20px 10px;
+    font-weight: 600;
+    background: rgb(220, 220, 44);
+    color: #333;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+
+  .back-btn:hover {
+    scale: 1.03;
+    transition: .2s ease-in;
+    background: #333;
+    color: rgb(220, 220, 44);
+  }
+  
+  #result{
+    height: 1000px;
+    width: 900px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:8px;
+  }
+  
+  .starship-card {
+    color: #fff;
+    height: 280px;
+    width: 280px;
+    padding: 4px 8px;
+    opacity: 0.8;
+    background: #464646;
+  }
+  
+  .starship-card img {
+    height: 140px;
+    width: 140px;
+    border-radius: 8px;    
+  }
+  
+  .search-nav {
+    width: 100%;
+    margin-top: 520px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .search-bar {
+    display: flex;
+    margin-right: 80px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .search-bar input {
+    padding: 16px 8px;
+    border-radius: 8px;
+  }
+
+  .search-bar button{
+    font-weight: 600;
+    background: rgb(220, 220, 44);
+    padding: 16px ;
+    color: #333;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+
+  .load-more {
+    font-weight: 600;
+    background: rgb(220, 220, 44);
+    padding: 16px ;
+    color: #333;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+
+  .img-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 12px;
+
+  }
+
+  .moredetail {
+    display: flex;
+    width: 100%;
+    justify-content: end;
+  }
+
+  .moredetail-btn {
+    font-weight: 600;
+    background: rgb(220, 220, 44);
+    padding: 8px ;
+    color: #333;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+
+  .moredetail-btn:hover {
+    scale: 1.03;
+    transition: .2s ease-in;
+    background: #333;
+    color: rgb(220, 220, 44);
+  }
+
+  @media (max-width: 576px) {
+    
+    #result{
+        height: 900px;
+        width: 90%;
+    }
+    
+    .starship-card {
+        color: #fff;
+        height: 300px;
+        width: 100%
+    }
+
+    .load-more {
+        display:none ;
+    }
+
+    .search-bar {
+        margin-right: 10px;
+    }
+
+    .search-bar input {
+        padding: 8px 4px;
+    }
+    
+      .search-bar button{
+        font-weight: 600;
+        background: rgb(220, 220, 44);
+        padding: 8px ;
+    }
+}

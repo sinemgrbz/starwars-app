@@ -9,10 +9,6 @@
 
 :root {
   --font-color-1 :rgb(77, 69, 81);
-  --font-color-2:rgb(255, 255, 255);
-  --font-color-3 :rgb(41, 37, 43);
-  --btn-color: rgb(255, 246, 238);
-  --btn-color-2 :rgb(169, 168, 170);
 } 
 
 body {
@@ -52,8 +48,8 @@ p {
 
 .container {
   width: 900px;
-  height: 500px;
-  margin: 160px auto;
+  height: 100vh;
+  margin: 10px auto;
   padding: 28px 0;
   display: flex;
   flex-direction: column;
@@ -87,29 +83,18 @@ p {
   cursor: pointer;
 }
 
-.back-btn {
-  padding: 8px 12px;
-  margin: 20px 40px;
-  font-weight: 600;
-  background: rgb(220, 220, 44);
-  color: #333;
-  border-radius: 8px;
-  cursor: pointer;
+.btn-explore:hover {
+  scale: 1.03;
+  transition: .2s ease-in;
+  background: #333;
+  color: rgb(220, 220, 44);
 }
 
 
+@media (max-width: 576px) {
+  .container {
+    max-width: 90%;
+    
+  }
 
-.starship-card {
-  color: #fff;
-  height: 100px;
-  width: 300px;
-  padding: 4px 20px;
-  opacity: 0.8;
-  background: #464646;
-}
-
-.starship-card img {
-  height: 100px;
-  width: 100px;
-  
 }
