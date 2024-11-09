@@ -56,6 +56,7 @@ p {
   margin: 160px auto;
   padding: 28px 0;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   background-repeat: no-repeat;
@@ -84,4 +85,31 @@ p {
   color: #333;
   border-radius: 8px;
   cursor: pointer;
+}
+
+.back-btn {
+  padding: 8px 12px;
+  margin: 20px 40px;
+  font-weight: 600;
+  background: rgb(220, 220, 44);
+  color: #333;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+
+
+.starship-card {
+  color: #fff;
+  height: 100px;
+  width: 300px;
+  padding: 4px 20px;
+  opacity: 0.8;
+  background: #464646;
+}
+
+.starship-card img {
+  height: 100px;
+  width: 100px;
+  
 }
