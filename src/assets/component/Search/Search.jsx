@@ -95,7 +95,7 @@ const Search =()=> {
                 {result.map((ship) => (
                     <div key={ship.url} className="starship-card">
                         <div className="img-div">
-                            <img src="/public/starship-.png" alt={ship.name} />
+                            <img src="/starship-.png" alt={ship.name} />
                         </div>
                         <h3>{ship.name}</h3>
                         <p>Model: {ship.model}</p>

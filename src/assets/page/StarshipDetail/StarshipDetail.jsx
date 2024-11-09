@@ -38,7 +38,7 @@ export default function StarshipDetail() {
             </div>
             <div className="starship-detail">
                 <div className="img-div">
-                    <img src="/public/starship-.png" alt={starshipDetail.name} />
+                    <img src="/starship-.png" alt={starshipDetail.name} />
                 </div>
                 <div className="starship-detail-context">
                     <p>Model: {starshipDetail.model}</p>
